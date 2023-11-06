@@ -33,21 +33,53 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+## Output:
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/c56223c8-ceec-485b-b721-5b936f478d7b)
+
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
 
+## Output:
+
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/69ef9360-ac75-4bca-be08-ad7308f53935)
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
+## Output:
+
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/10daa454-357c-43f1-856a-85adc624bf7e)
+
+
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
 
+## Output:
+
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/abe9bd49-94f6-4a60-b495-73096e36c500)
+
+
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+
+## Output:
+
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/70d7e016-1db1-440d-8b05-7ababe569b42)
+
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
+## Output:
+
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/2f709c2e-ef5d-4b12-afd1-ff69ca1d8f82)
+
+
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+
+## Output:
+
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/a79df725-f505-4606-8e26-e32dab133c62)
+
 
  
 #DNS Enumeration
@@ -61,6 +93,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/627b0094-4373-4420-979a-6056da309035)
 
 
 
@@ -81,14 +114,24 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/de8bc164-f3c8-479b-a142-b66e26dc3d18)
+
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/829aeb6f-dada-4e99-b539-460c3f7d9aa7)
+
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/429e4a59-6c42-4335-bb5c-d660bb4e25ed)
+
+
 select any username in the first column of the above file and check the same
+
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/e2e32c11-2541-4083-9118-1051fb694118)
+
 
 
 #Telnet for smtp enumeration
@@ -97,7 +140,9 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
+
+  ![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/496726e7-74bf-423c-b4af-21f5906d0731)
+
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -106,6 +151,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![image](https://github.com/NAVEENKUMAR4325/Enumeration/assets/119479566/6a2bfb53-6c61-4f8f-a63e-756a09baf6af)
 
 
 ## RESULT:
